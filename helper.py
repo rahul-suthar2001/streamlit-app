@@ -1,5 +1,7 @@
 import re
+import nltk
 from nltk.corpus import stopwords
+nltk.download("stopwords")
 from fuzzywuzzy import fuzz
 import distance
 from bs4 import BeautifulSoup
